@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0;
     
 
 }
@@ -24,6 +25,51 @@ hr{
     border: 1px solid #D1D1D1;
     width: 807px;
     margin-top: 30px;
+}
+/* navbar */
+.navbar{
+    background: #562EFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#nav-container{
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    
+}
+.logo h3{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.manu{
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+}
+.manu ul{
+    display: flex;
+     column-gap: 36px;
+}
+.manu ul li{
+    list-style: none;
+}
+.manu ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 /* top players */
